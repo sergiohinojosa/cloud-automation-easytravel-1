@@ -5,3 +5,36 @@ metadata:
 spec:
   stages:
     - name: "quality-gate"
+      sequences:
+      - name: delivery
+        tasks:
+        - name: deployment
+          properties:
+            deploymentstrategy: ""
+        - name: test
+          properties:
+            teststrategy: performance
+        - name: evaluation
+          properties: null
+        - name: approval
+          properties:
+            pass: automatic
+            warning: automatic
+        - name: release
+          properties: null
+      - name: delivery-direct
+        tasks:
+        - name: deployment
+          properties:
+            deploymentstrategy: direct
+        - name: test
+          properties:
+            teststrategy: performance
+        - name: evaluation
+          properties: null
+        - name: approval
+          properties:
+            pass: automatic
+            warning: automatic
+        - name: release
+          properties: null
