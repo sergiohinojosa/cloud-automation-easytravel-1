@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="SERVER_URL" elementType="Argument">
             <stringProp name="Argument.name">SERVER_URL</stringProp>
-            <stringProp name="Argument.value">${__P(SERVER_URL,classic.13-66-185-36.nip.io)}</stringProp>
+            <stringProp name="Argument.value">${__P(SERVER_URL,classic.18-133-183-245.nip.io)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="VUCount" elementType="Argument">
@@ -64,7 +64,7 @@
           </elementProp>
           <elementProp name="LoopCount" elementType="Argument">
             <stringProp name="Argument.name">LoopCount</stringProp>
-            <stringProp name="Argument.value">${__P(LoopCount,3)}</stringProp>
+            <stringProp name="Argument.value">${__P(LoopCount,1)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="username" elementType="Argument">
@@ -205,6 +205,7 @@ String LoopCount = vars.get(&quot;LoopCount&quot;);
 headerValue.append(&quot;LSN=&quot;+groupName+&quot;;&quot;);
 
 // LTN The Load Test Name uniquely identifies a test execution (for example, 6h Load Test – June 25)
+//JMeterService on Keptn 
 headerValue.append(&quot;LTN=LoadTest via JMeterService on Keptn - &quot; +groupName+&quot; - VU(&quot; + threadNum +&quot;) Loops(&quot;+LoopCount+&quot;) - &quot;+ DATEID+&quot;;&quot;);
 
 // Test Step Name is a logical test step within your load testing script (for example, Login or Add to cart.
