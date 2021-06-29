@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="SERVER_URL" elementType="Argument">
             <stringProp name="Argument.name">SERVER_URL</stringProp>
-            <stringProp name="Argument.value">${__P(SERVER_URL,classic.13-66-185-36.nip.io)}</stringProp>
+            <stringProp name="Argument.value">${__P(SERVER_URL,classic.18-134-95-20.nip.io)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="VUCount" elementType="Argument">
