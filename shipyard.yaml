@@ -12,7 +12,7 @@ spec:
           properties:
             deploymentstrategy: direct
       - name: testing
-        triggeredOn: delivery.finished
+        triggeredOn: quality-gate.delivery.finished
         tasks:
           - name: test
             properties:
