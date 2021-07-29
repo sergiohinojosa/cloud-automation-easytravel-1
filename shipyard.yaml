@@ -7,8 +7,10 @@ spec:
     - name: "quality-gate"
       sequences:
         - name: "testing"
+          triggeredOn:
+            - event: "sh.keptn.events.deployment-finished"
           tasks:
             - name: "test"
               properties:
-                teststrategy: "fullbooking_5_100"
+                teststrategy: "performance_5"
             - name: "evaluation"
