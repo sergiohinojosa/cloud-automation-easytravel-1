@@ -22,5 +22,4 @@ spec:
         properties:
           teststrategy: performance
       - name: evaluation
-        properties: null
 
