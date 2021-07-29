@@ -12,6 +12,7 @@ spec:
           properties:
             deploymentstrategy: direct
       - name: testing
+        triggeredOn: delivery.finished
         tasks:
           - name: test
             properties:
