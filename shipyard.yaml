@@ -4,5 +4,23 @@ metadata:
   name: "shipyard-easytravel"
 spec:
   stages:
-    - name: "quality-gate"
-      test_strategy: "performance"
+  - name: "quality-gate"
+    sequences:
+    - name: delivery
+      tasks:
+      - name: deployment
+        properties:
+          deploymentstrategy: direct
+    - name: testing
+      triggeredOn:
+      - event: quality-gate.delivery.finished
+        selector:
+          match:
+            result: pass
+      tasks:
+      - name: tests
+        properties:
+          teststrategy: performance
+      - name: evaluation
+        properties: null
+
