@@ -13,7 +13,7 @@ spec:
                 deploymentstrategy: "direct"
         - name: "testing"
           triggeredOn:
-            - event: "sh.keptn.event.deployment-finished"
+            - event: "deployment-finished"
           tasks:
             - name: "test"
               properties:
