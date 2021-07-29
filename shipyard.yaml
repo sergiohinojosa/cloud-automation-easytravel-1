@@ -8,9 +8,6 @@ spec:
       sequences:
       - name: delivery
         tasks:
-        - name: deployment
-          properties:
-            deploymentstrategy: direct
         - name: test
           properties:
             teststrategy: performance
