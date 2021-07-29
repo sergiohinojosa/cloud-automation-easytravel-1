@@ -7,6 +7,8 @@ spec:
     - name: "quality-gate"
       sequences:
         - name: "testing"
+          triggeredOn:
+            - event: "sh.keptn.event.quality-gate.deployment-finished"
           tasks:
             - name: "test"
               properties:
