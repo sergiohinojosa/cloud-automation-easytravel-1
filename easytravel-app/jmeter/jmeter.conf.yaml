@@ -27,7 +27,7 @@ workloads:
     script: jmeter/easytravel-classic-random-book.jmx
   - teststrategy: performance_5
     vuser: 1
-    loopcount: 10
+    loopcount: 1
     thinktime: 750
     acceptederrorrate: 1.0
     script: jmeter/easytravel-classic-random-book.jmx
