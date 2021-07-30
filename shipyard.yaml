@@ -12,6 +12,8 @@ spec:
               properties:
                 deploymentstrategy: direct
         - name: "testing"
+          triggeredOn:
+            - event: "quality-gate.delivery.finished"
           tasks:
             - name: "test"
               properties:
