@@ -18,5 +18,7 @@ spec:
             - name: "test"
               properties:
               teststrategy: "performance_5"
+        - name: "eval"
+          tasks:
             - name: "evaluation"
 
