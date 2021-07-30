@@ -19,6 +19,7 @@ spec:
               properties:
               teststrategy: "performance_5"
         - name: "eval"
+          triggeredOn: "sh.keptn.event.quality-gate.testing.finished"
           tasks:
             - name: "evaluation"
 
