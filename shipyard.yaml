@@ -12,14 +12,13 @@ spec:
               properties:
                 deploymentstrategy: direct
         - name: "testing"
-          triggeredOn:
-            - event: sh.keptn.event.quality-gate.delivery.finished
           tasks:
             - name: "test"
               properties:
               teststrategy: "performance_5"
         - name: "eval"
-          triggeredOn: "sh.keptn.event.quality-gate.testing.finished"
+          triggeredOn:
+            - event: "sh.keptn.event.quality-gate.testing.finished"
           tasks:
             - name: "evaluation"
 
