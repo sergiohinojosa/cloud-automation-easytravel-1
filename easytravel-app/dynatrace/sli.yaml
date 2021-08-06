@@ -1,9 +1,6 @@
 spec_version: '1.0'
 indicators:
   throughput_svc: "metricSelector=builtin:service.requestCount.total:merge(0):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
-  error_count:    "metricSelector=builtin:service.errors.total.count:merge(0):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
   rt_svc_p90:     "metricSelector=builtin:service.response.time:merge(0):percentile(90)&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
   rt_svc_p95:     "metricSelector=builtin:service.response.time:merge(0):percentile(95)&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
-  db_calls:       "metricSelector=builtin:service.dbChildCallCount:merge(0):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
-  non_db_calls:   "metricSelector=builtin:service.nonDbChildCallCount:merge(0):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:easytravel-app)"
  
