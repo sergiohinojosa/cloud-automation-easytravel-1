@@ -10,6 +10,7 @@ indicators:
   lock_time:    "metricSelector=builtin:service.lockTime:merge(\"dt.entity.service\"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
   io_time:      "metricSelector=builtin:service.ioTime:merge(\"dt.entity.service\"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
   cpu_time:     "metricSelector=builtin:service.cpu.time:merge(\"dt.entity.service\"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
+  kpi_rt_finish_payment: "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",9)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
  # kpi_et_ex:     "metricSelector=calc:service.exceptionsbystepeasytravel:sum:merge(0,1):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
  # kpi_rt_home:     "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",1)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
  # kpi_rt_recommendations:     "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",2)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
@@ -19,4 +20,3 @@ indicators:
  # kpi_rt_select_payment: "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",6)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
  # kpi_rt_check_creditcard: "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",7)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
  # kpi_rt_submit_payment: "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",8)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
- # kpi_rt_finish_payment: "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Dimension\",9)):merge(\"dt.entity.service\"):avg&entitySelector=type(SERVICE),tag(keptn_managed),tag(easytravel-app)"
