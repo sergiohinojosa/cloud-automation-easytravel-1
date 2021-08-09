@@ -74,5 +74,5 @@ objectives:
       - criteria:
           - ">+5%"
 total_score:
-  pass: "85%"
-  warning: "75%"
+  pass: "100%"
+  warning: "95%"
