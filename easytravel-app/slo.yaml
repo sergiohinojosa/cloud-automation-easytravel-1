@@ -75,4 +75,4 @@ objectives:
           - ">+5%"
 total_score:
   pass: "100%"
-  warning: "95%"
+  warning: "90%"
