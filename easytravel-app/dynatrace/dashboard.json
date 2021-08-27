@@ -1387,7 +1387,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "AUTO_TAGS": [
+              "easytravel-app"
+            ]
+          }
+        }
       }
     },
     {
