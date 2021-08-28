@@ -226,17 +226,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_lighthouse-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -370,17 +359,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_azure_easytraveldemo-weather-service-app-demo
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_:8080_prod
   displayName: ""
   pass:
   - criteria:
@@ -534,17 +512,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_EmailService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_AuthenticationService
   displayName: ""
   pass:
@@ -601,17 +568,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CloudAutomation_Credit_Card_Verification
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -710,17 +666,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_dynatrace-sli-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_EmailService_prod
   displayName: ""
   pass:
@@ -777,28 +722,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95__services_BookingService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -930,17 +853,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -964,17 +876,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -1612,17 +1513,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Requests_on_localhost:8081
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_gcp_CheckDestination
   displayName: ""
   pass:
@@ -1690,17 +1580,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_RecommendationService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -1799,17 +1678,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_CartService
   displayName: ""
   pass:
@@ -1854,40 +1722,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_helm-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_unleash-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_MF_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -2041,17 +1876,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_CartService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_nova-placement
   displayName: ""
   pass:
@@ -2130,28 +1954,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_:8080
   displayName: ""
   pass:
   - criteria:
@@ -2460,17 +2262,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_:8080_staging
   displayName: ""
   pass:
   - criteria:
@@ -3020,17 +2811,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_RESTProcedureControl
   displayName: ""
   pass:
@@ -3065,17 +2845,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_wp_easytravel
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Requests_executed_in_background_threads_of_ApacheJMeter.jar_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -3141,7 +2910,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_azure_Requests_on_et-demo1-weather-service-restify.azurewebsites.net:80
+- sli: svc_rt_p95_azure_Requests_on_et-demo1-weather-express.azurewebsites.net:80
   displayName: ""
   pass:
   - criteria:
@@ -3306,17 +3075,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3395,17 +3153,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_azure_easyTravel_Customer_Frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -3680,17 +3427,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__services_JourneyService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3714,17 +3450,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_vets-service-1
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -4074,16 +3799,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_lighthouse-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -4205,16 +3920,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_azure_easytraveldemo-weather-service-app-demo
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_:8080_prod
   displayName: ""
   pass:
   - criteria:
@@ -4354,16 +4059,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_EmailService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_AuthenticationService
   displayName: ""
   pass:
@@ -4415,16 +4110,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CloudAutomation_Credit_Card_Verification
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -4514,16 +4199,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_dynatrace-sli-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_EmailService_prod
   displayName: ""
   pass:
@@ -4575,26 +4250,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50__services_BookingService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -4714,16 +4369,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -4745,16 +4390,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -5334,16 +4969,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Requests_on_localhost:8081
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_gcp_CheckDestination
   displayName: ""
   pass:
@@ -5405,16 +5030,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_RecommendationService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -5504,16 +5119,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_CartService
   displayName: ""
   pass:
@@ -5554,37 +5159,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_helm-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_unleash-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_MF_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -5724,16 +5299,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_CartService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_nova-placement
   displayName: ""
   pass:
@@ -5805,26 +5370,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_:8080
   displayName: ""
   pass:
   - criteria:
@@ -6105,16 +5650,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_:8080_staging
   displayName: ""
   pass:
   - criteria:
@@ -6614,16 +6149,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_RESTProcedureControl
   displayName: ""
   pass:
@@ -6655,16 +6180,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_wp_easytravel
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Requests_executed_in_background_threads_of_ApacheJMeter.jar_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -6724,7 +6239,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_azure_Requests_on_et-demo1-weather-service-restify.azurewebsites.net:80
+- sli: svc_rt_p50_azure_Requests_on_et-demo1-weather-express.azurewebsites.net:80
   displayName: ""
   pass:
   - criteria:
@@ -6874,16 +6389,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -6955,16 +6460,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_azure_easyTravel_Customer_Frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -7214,16 +6709,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__services_JourneyService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -7245,16 +6730,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_vets-service-1
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -7594,16 +7069,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_lighthouse-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -7725,16 +7190,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easytraveldemo-weather-service-app-demo
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_:8080_prod
   displayName: ""
   pass:
   - criteria:
@@ -7874,16 +7329,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_EmailService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_AuthenticationService
   displayName: ""
   pass:
@@ -7935,16 +7380,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CloudAutomation_Credit_Card_Verification
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -8034,16 +7469,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_dynatrace-sli-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_EmailService_prod
   displayName: ""
   pass:
@@ -8095,26 +7520,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_BookingService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -8234,16 +7639,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -8265,16 +7660,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -8854,16 +8239,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Requests_on_localhost:8081
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_gcp_CheckDestination
   displayName: ""
   pass:
@@ -8925,16 +8300,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_RecommendationService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -9024,16 +8389,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_CartService
   displayName: ""
   pass:
@@ -9074,37 +8429,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_helm-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_unleash-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_MF_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -9244,16 +8569,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CartService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_nova-placement
   displayName: ""
   pass:
@@ -9325,26 +8640,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_:8080
   displayName: ""
   pass:
   - criteria:
@@ -9625,16 +8920,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_:8080_staging
   displayName: ""
   pass:
   - criteria:
@@ -10134,16 +9419,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -10175,16 +9450,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_wp_easytravel
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Requests_executed_in_background_threads_of_ApacheJMeter.jar_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -10244,7 +9509,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_azure_Requests_on_et-demo1-weather-service-restify.azurewebsites.net:80
+- sli: svc_rt_p90_azure_Requests_on_et-demo1-weather-express.azurewebsites.net:80
   displayName: ""
   pass:
   - criteria:
@@ -10394,16 +9659,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10475,16 +9730,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -10734,16 +9979,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__services_JourneyService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10765,16 +10000,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_vets-service-1
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
