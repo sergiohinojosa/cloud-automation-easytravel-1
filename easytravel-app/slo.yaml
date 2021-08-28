@@ -127,17 +127,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__services_ConfigurationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_nginxForCustomerFrontend
   displayName: ""
   pass:
@@ -920,6 +909,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_locket
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -3152,6 +3152,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3799,16 +3810,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CF_fullstack_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50__services_ConfigurationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -4529,6 +4530,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_locket
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -6558,6 +6569,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -7159,16 +7180,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CF_fullstack_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_ConfigurationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -7898,6 +7909,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
   displayName: ""
   pass:
@@ -7998,7 +8019,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -8008,7 +8029,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -9918,6 +9939,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10460,14 +10491,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_JBoss
-  displayName: ""
-  pass:
-  - criteria:
-    - <20%
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: mem_per_api_Java_MongoDB
   displayName: ""
   pass:
@@ -10476,7 +10499,23 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
+- sli: mem_per_api_JBoss
+  displayName: ""
+  pass:
+  - criteria:
+    - <20%
+  warning: []
+  weight: 1
+  key_sli: false
 - sli: mem_per_api_JRE
+  displayName: ""
+  pass:
+  - criteria:
+    - <20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: mem_per_api_Java_IBM_MQ
   displayName: ""
   pass:
   - criteria:
