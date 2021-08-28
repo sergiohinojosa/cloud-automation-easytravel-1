@@ -831,6 +831,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_ValidateCard_Run
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -1777,6 +1788,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_CloudAutomation_CreditCardValidation
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_PaymentBackend_PaymentReport
   displayName: ""
   pass:
@@ -1975,6 +1997,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95__services_VerificationService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_CouchDB_ET_on_port_5984
   displayName: ""
   pass:
@@ -2009,6 +2042,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -2295,6 +2339,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_to_unmonitored_hosts
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_eT-demo-1-BusinessBackend-LoadBalancer_on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3196,6 +3251,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3395,6 +3461,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_azure_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95__services_AuthenticationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -4382,6 +4459,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_ValidateCard_Run
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -4572,7 +4659,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p50__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -4582,7 +4669,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__Citrix_CredentialWalletService
+- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -5242,6 +5329,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_CloudAutomation_CreditCardValidation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_PaymentBackend_PaymentReport
   displayName: ""
   pass:
@@ -5422,6 +5519,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50__services_VerificationService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_CouchDB_ET_on_port_5984
   displayName: ""
   pass:
@@ -5453,6 +5560,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -5713,6 +5830,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_to_unmonitored_hosts
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_eT-demo-1-BusinessBackend-LoadBalancer_on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -6532,6 +6659,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -6713,6 +6850,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_azure_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50__services_AuthenticationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -7682,6 +7829,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ValidateCard_Run
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -7872,7 +8029,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -7882,7 +8039,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -8542,6 +8699,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CloudAutomation_CreditCardValidation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_PaymentBackend_PaymentReport
   displayName: ""
   pass:
@@ -8722,6 +8889,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__services_VerificationService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_CouchDB_ET_on_port_5984
   displayName: ""
   pass:
@@ -8753,6 +8930,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -9013,6 +9200,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_to_unmonitored_hosts
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_eT-demo-1-BusinessBackend-LoadBalancer_on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -9832,6 +10029,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10013,6 +10220,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_AuthenticationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
