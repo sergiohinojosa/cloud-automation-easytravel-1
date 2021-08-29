@@ -875,17 +875,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1601,17 +1590,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1954,6 +1932,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3130,17 +3119,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_loggregator.v2.Ingress
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_hipstershop.ProductCatalogService_staging
   displayName: ""
   pass:
@@ -3537,7 +3515,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__services_JourneyService__on_port_8091
+- sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
   - criteria:
@@ -3548,7 +3526,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_hipstershop.PaymentService
+- sli: svc_rt_p95_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
@@ -4510,16 +4488,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -5170,16 +5138,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -5491,6 +5449,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -6560,16 +6528,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_loggregator.v2.Ingress
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_hipstershop.ProductCatalogService_staging
   displayName: ""
   pass:
@@ -6930,7 +6888,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__services_JourneyService__on_port_8091
+- sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
   - criteria:
@@ -6940,7 +6898,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_hipstershop.PaymentService
+- sli: svc_rt_p50_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
@@ -7890,16 +7848,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -8550,16 +8498,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -8871,6 +8809,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -9940,16 +9888,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_loggregator.v2.Ingress
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.ProductCatalogService_staging
   displayName: ""
   pass:
@@ -10310,7 +10248,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__services_JourneyService__on_port_8091
+- sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
   - criteria:
@@ -10320,7 +10258,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_hipstershop.PaymentService
+- sli: svc_rt_p90_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
