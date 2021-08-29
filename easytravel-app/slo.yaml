@@ -226,17 +226,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_AGServices)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -425,17 +414,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_MF_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easyTravel_(x*)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_mongodb-datastore_mongodb-datastore-*_on_port_8080
   displayName: ""
   pass:
   - criteria:
@@ -765,28 +743,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95__services_BookingService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -864,17 +820,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_ValidateCard_Run
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -909,6 +854,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_azure_weather-express
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_CloudAutomation_rest.*:80
   displayName: ""
   pass:
   - criteria:
@@ -1183,17 +1139,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_MF_JourneyService
   displayName: ""
   pass:
@@ -1239,17 +1184,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -1656,28 +1590,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_PNAgent)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1822,17 +1734,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CloudAutomation_CreditCardValidation
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Roaming)
   displayName: ""
   pass:
   - criteria:
@@ -2075,28 +1976,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_:8080
   displayName: ""
   pass:
   - criteria:
@@ -2515,17 +2394,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Default_Web_Site_(_Citrix_netscalerWeb)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Configuration)
   displayName: ""
   pass:
   - criteria:
@@ -2987,17 +2855,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_RESTProcedureControl
   displayName: ""
   pass:
@@ -3263,17 +3120,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_:10999
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_:8080
   displayName: ""
   pass:
   - criteria:
@@ -4019,16 +3865,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_AGServices)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -4200,16 +4036,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_MF_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easyTravel_(x*)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_mongodb-datastore_mongodb-datastore-*_on_port_8080
   displayName: ""
   pass:
   - criteria:
@@ -4509,26 +4335,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50__services_BookingService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -4599,16 +4405,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_ValidateCard_Run
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -4640,6 +4436,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_azure_weather-express
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_CloudAutomation_rest.*:80
   displayName: ""
   pass:
   - criteria:
@@ -4889,16 +4695,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_MF_JourneyService
   displayName: ""
   pass:
@@ -4940,16 +4736,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -5319,26 +5105,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_PNAgent)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -5470,16 +5236,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CloudAutomation_CreditCardValidation
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Roaming)
   displayName: ""
   pass:
   - criteria:
@@ -5700,26 +5456,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_:8080
   displayName: ""
   pass:
   - criteria:
@@ -6100,16 +5836,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Default_Web_Site_(_Citrix_netscalerWeb)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Configuration)
   displayName: ""
   pass:
   - criteria:
@@ -6529,16 +6255,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_RESTProcedureControl
   displayName: ""
   pass:
@@ -6780,16 +6496,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_:10999
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_:8080
   displayName: ""
   pass:
   - criteria:
@@ -7489,16 +7195,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_AGServices)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -7670,16 +7366,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easyTravel_(x*)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_mongodb-datastore_mongodb-datastore-*_on_port_8080
   displayName: ""
   pass:
   - criteria:
@@ -7979,26 +7665,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_BookingService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -8069,16 +7735,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_ValidateCard_Run
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -8110,6 +7766,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_weather-express
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_rest.*:80
   displayName: ""
   pass:
   - criteria:
@@ -8359,16 +8025,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_:8080
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_MF_JourneyService
   displayName: ""
   pass:
@@ -8410,16 +8066,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -8789,26 +8435,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_PNAgent)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_bridge-server
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -8940,16 +8566,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CloudAutomation_CreditCardValidation
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Roaming)
   displayName: ""
   pass:
   - criteria:
@@ -9170,26 +8786,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_:8080
   displayName: ""
   pass:
   - criteria:
@@ -9570,16 +9166,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Default_Web_Site_(_Citrix_netscalerWeb)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Configuration)
   displayName: ""
   pass:
   - criteria:
@@ -9999,16 +9585,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Authentication)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -10250,16 +9826,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_:10999
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_:8080
   displayName: ""
   pass:
   - criteria:
