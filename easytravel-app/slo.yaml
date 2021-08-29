@@ -61,17 +61,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_service_instance_db
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_PluginService
   displayName: ""
   pass:
@@ -402,17 +391,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_hipstershop.AdService_prod
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_ActiveMQ_Artemis_Queue_Listener
   displayName: ""
   pass:
@@ -523,6 +501,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_EmailService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_AuthenticationService
   displayName: ""
   pass:
@@ -535,6 +524,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CF_fullstack_AuthenticationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_hipstershop.ShippingService_on_server_frontend-primary-*_(grpc:__hipstershop.ShippingService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -677,6 +677,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95__:8080
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_EmailService_prod
   displayName: ""
   pass:
@@ -733,17 +744,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -919,6 +919,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_eT-demo-1-CustomerFrontend_on_port_8280
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
   displayName: ""
   pass:
@@ -1029,7 +1040,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p95__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -1040,7 +1051,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__Citrix_CredentialWalletService
+- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -1095,6 +1106,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_PetResource
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_gcp_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -1128,6 +1150,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_unleash-docker_unleash-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_EmailService_staging
   displayName: ""
   pass:
@@ -1140,17 +1173,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_MF_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_grpc.health.v1.Health_prod
   displayName: ""
   pass:
   - criteria:
@@ -1184,6 +1206,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_dotNetFrontend_easyTravel_x64:9000
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
   displayName: ""
   pass:
   - criteria:
@@ -1579,17 +1612,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_grpc.health.v1.Health_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_RecommendationService
   displayName: ""
   pass:
@@ -1689,17 +1711,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_CartService
   displayName: ""
   pass:
@@ -1744,7 +1755,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_unleash-service-*
+- sli: svc_rt_p95_MF_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -1755,7 +1766,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_MF_BookingService
+- sli: svc_rt_p95_hipstershop.RecommendationService_on_server_frontend-primary-*_(grpc:__hipstershop.RecommendationService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -1865,6 +1876,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
   displayName: ""
   pass:
@@ -1931,6 +1953,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_CartService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_nova-placement
   displayName: ""
   pass:
@@ -1965,6 +1998,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -2019,7 +2063,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_:8080
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -2306,6 +2350,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_hipstershop.CartService_on_server_frontend-primary-*_(grpc:__hipstershop.CartService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -2613,6 +2668,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService_prod
   displayName: ""
   pass:
@@ -2657,17 +2723,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_hipstershop.AdService_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_LoadDriverService.exe
   displayName: ""
   pass:
@@ -2691,6 +2746,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_:10999
   displayName: ""
   pass:
   - criteria:
@@ -2866,6 +2932,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_hipstershop.CheckoutService_on_server_frontend-primary-*_(grpc:__hipstershop.CheckoutService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_PluginService
   displayName: ""
   pass:
@@ -2889,6 +2966,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -3163,7 +3251,18 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_:8080
+- sli: svc_rt_p95_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_:10999
   displayName: ""
   pass:
   - criteria:
@@ -3252,6 +3351,28 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -3471,17 +3592,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -3548,7 +3658,29 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_server_frontend-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_vets-service-1
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -3680,6 +3812,28 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_Requests_executed_in_background_threads_of_SpringBoot_visits-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_SpringBoot_api-gateway-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: throughput_svc
   displayName: ""
   pass:
@@ -3739,16 +3893,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health_prod
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_service_instance_db
   displayName: ""
   pass:
   - criteria:
@@ -4058,16 +4202,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_hipstershop.AdService_prod
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_ActiveMQ_Artemis_Queue_Listener
   displayName: ""
   pass:
@@ -4168,6 +4302,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_EmailService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_AuthenticationService
   displayName: ""
   pass:
@@ -4179,6 +4323,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CF_fullstack_AuthenticationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_hipstershop.ShippingService_on_server_frontend-primary-*_(grpc:__hipstershop.ShippingService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -4308,6 +4462,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50__:8080
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_EmailService_prod
   displayName: ""
   pass:
@@ -4359,16 +4523,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -4528,6 +4682,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_eT-demo-1-CustomerFrontend_on_port_8280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
   displayName: ""
   pass:
@@ -4628,7 +4792,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p50__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -4638,7 +4802,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__Citrix_CredentialWalletService
+- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -4688,6 +4852,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_PetResource
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_gcp_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -4718,6 +4892,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_unleash-docker_unleash-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_EmailService_staging
   displayName: ""
   pass:
@@ -4729,16 +4913,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_MF_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_grpc.health.v1.Health_prod
   displayName: ""
   pass:
   - criteria:
@@ -4769,6 +4943,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_dotNetFrontend_easyTravel_x64:9000
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
   displayName: ""
   pass:
   - criteria:
@@ -5128,16 +5312,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_grpc.health.v1.Health_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_RecommendationService
   displayName: ""
   pass:
@@ -5228,16 +5402,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_CartService
   displayName: ""
   pass:
@@ -5278,7 +5442,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_unleash-service-*
+- sli: svc_rt_p50_MF_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -5288,7 +5452,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_MF_BookingService
+- sli: svc_rt_p50_hipstershop.RecommendationService_on_server_frontend-primary-*_(grpc:__hipstershop.RecommendationService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -5388,6 +5552,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
   displayName: ""
   pass:
@@ -5448,6 +5622,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_CartService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_nova-placement
   displayName: ""
   pass:
@@ -5479,6 +5663,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -5528,7 +5722,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_:8080
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -5789,6 +5983,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_hipstershop.CartService_on_server_frontend-primary-*_(grpc:__hipstershop.CartService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -6068,6 +6272,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService_prod
   displayName: ""
   pass:
@@ -6108,16 +6322,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_hipstershop.AdService_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_LoadDriverService.exe
   displayName: ""
   pass:
@@ -6139,6 +6343,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_:10999
   displayName: ""
   pass:
   - criteria:
@@ -6298,6 +6512,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_hipstershop.CheckoutService_on_server_frontend-primary-*_(grpc:__hipstershop.CheckoutService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_PluginService
   displayName: ""
   pass:
@@ -6319,6 +6543,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -6568,7 +6802,17 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_:8080
+- sli: svc_rt_p50_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_:10999
   displayName: ""
   pass:
   - criteria:
@@ -6649,6 +6893,26 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -6848,16 +7112,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -6918,7 +7172,27 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_server_frontend-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_vets-service-1
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -7038,6 +7312,26 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_Requests_executed_in_background_threads_of_SpringBoot_visits-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_SpringBoot_api-gateway-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: db_calls
   displayName: ""
   pass:
@@ -7099,16 +7393,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health_prod
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_service_instance_db
   displayName: ""
   pass:
   - criteria:
@@ -7418,16 +7702,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_hipstershop.AdService_prod
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_ActiveMQ_Artemis_Queue_Listener
   displayName: ""
   pass:
@@ -7528,6 +7802,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_EmailService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_AuthenticationService
   displayName: ""
   pass:
@@ -7539,6 +7823,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CF_fullstack_AuthenticationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.ShippingService_on_server_frontend-primary-*_(grpc:__hipstershop.ShippingService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -7668,6 +7962,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__:8080
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_EmailService_prod
   displayName: ""
   pass:
@@ -7719,16 +8023,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -7888,6 +8182,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
   displayName: ""
   pass:
@@ -7988,7 +8292,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -7998,7 +8302,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -8048,6 +8352,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_PetResource
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_gcp_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -8078,6 +8392,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_unleash-docker_unleash-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_EmailService_staging
   displayName: ""
   pass:
@@ -8089,16 +8413,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_grpc.health.v1.Health_prod
   displayName: ""
   pass:
   - criteria:
@@ -8129,6 +8443,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_dotNetFrontend_easyTravel_x64:9000
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
   displayName: ""
   pass:
   - criteria:
@@ -8488,16 +8812,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_grpc.health.v1.Health_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_RecommendationService
   displayName: ""
   pass:
@@ -8588,16 +8902,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_remediation-service-*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_CartService
   displayName: ""
   pass:
@@ -8638,7 +8942,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_unleash-service-*
+- sli: svc_rt_p90_MF_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -8648,7 +8952,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_MF_BookingService
+- sli: svc_rt_p90_hipstershop.RecommendationService_on_server_frontend-primary-*_(grpc:__hipstershop.RecommendationService)_prod
   displayName: ""
   pass:
   - criteria:
@@ -8748,6 +9052,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
   displayName: ""
   pass:
@@ -8808,6 +9122,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CartService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_nova-placement
   displayName: ""
   pass:
@@ -8839,6 +9163,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -8888,7 +9222,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_:8080
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -9149,6 +9483,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.CartService_on_server_frontend-primary-*_(grpc:__hipstershop.CartService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -9428,6 +9772,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService_prod
   displayName: ""
   pass:
@@ -9468,16 +9822,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_hipstershop.AdService_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_LoadDriverService.exe
   displayName: ""
   pass:
@@ -9499,6 +9843,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_:10999
   displayName: ""
   pass:
   - criteria:
@@ -9658,6 +10012,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_hipstershop.CheckoutService_on_server_frontend-primary-*_(grpc:__hipstershop.CheckoutService)_prod
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_PluginService
   displayName: ""
   pass:
@@ -9679,6 +10043,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.CurrencyService_on_server_frontend-primary-*_(grpc:__hipstershop.CurrencyService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -9928,7 +10302,17 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_:8080
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_:10999
   displayName: ""
   pass:
   - criteria:
@@ -10009,6 +10393,26 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.ProductCatalogService_on_server_frontend-primary-*_(grpc:__hipstershop.ProductCatalogService)_staging
   displayName: ""
   pass:
   - criteria:
@@ -10208,16 +10612,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -10278,7 +10672,27 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_server_frontend-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_vets-service-1
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -10398,6 +10812,26 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_SpringBoot_visits-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_SpringBoot_api-gateway-*_on_port_80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: lock_time
   displayName: ""
   pass:
@@ -10460,14 +10894,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_Java_MongoDB
-  displayName: ""
-  pass:
-  - criteria:
-    - <20%
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: mem_per_api_JBoss
   displayName: ""
   pass:
@@ -10476,7 +10902,23 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
+- sli: mem_per_api_Java_MongoDB
+  displayName: ""
+  pass:
+  - criteria:
+    - <20%
+  warning: []
+  weight: 1
+  key_sli: false
 - sli: mem_per_api_JRE
+  displayName: ""
+  pass:
+  - criteria:
+    - <20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: mem_per_api_Java_IBM_MQ
   displayName: ""
   pass:
   - criteria:
