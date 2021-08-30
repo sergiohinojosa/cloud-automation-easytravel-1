@@ -875,6 +875,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1018,7 +1029,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p95__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -1029,7 +1040,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__Citrix_CredentialWalletService
+- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -3207,6 +3218,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3472,17 +3494,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
@@ -4444,6 +4455,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -4574,7 +4595,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p50__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -4584,7 +4605,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__Citrix_CredentialWalletService
+- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -6564,6 +6585,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -6805,16 +6836,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
@@ -7764,6 +7785,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -7894,7 +7925,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -7904,7 +7935,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -9884,6 +9915,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10125,16 +10166,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_Requests_on_ec2-54-172-169-220.compute-1.amazonaws.com:9000
   displayName: ""
   pass:
   - criteria:
