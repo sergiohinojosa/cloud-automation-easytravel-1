@@ -875,17 +875,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1590,7 +1579,29 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_IBM_MQ_Queue_Listener
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_RecommendationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -1700,6 +1711,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_LoadDriverService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -1723,6 +1745,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -2141,6 +2174,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_EasyTravelWebserver:8999
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_easyTravel_Business_Backend
   displayName: ""
   pass:
   - criteria:
@@ -3174,6 +3218,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_CICS_on_ET02
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_EasyTravelBackendWebserver:8091
   displayName: ""
   pass:
@@ -3252,6 +3307,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_MicroJourneyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_DBBG
   displayName: ""
   pass:
   - criteria:
@@ -3549,6 +3615,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_gcp_VerificationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_EasyTravelWebserver:8091
   displayName: ""
   pass:
   - criteria:
@@ -4433,16 +4510,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -4583,7 +4650,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p50__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -4593,7 +4660,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__Citrix_CredentialWalletService
+- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -5083,7 +5150,27 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_IBM_MQ_Queue_Listener
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_RecommendationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -5183,6 +5270,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_LoadDriverService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -5204,6 +5301,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -5584,6 +5691,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_EasyTravelWebserver:8999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_easyTravel_Business_Backend
   displayName: ""
   pass:
   - criteria:
@@ -6523,6 +6640,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_CICS_on_ET02
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_EasyTravelBackendWebserver:8091
   displayName: ""
   pass:
@@ -6594,6 +6721,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_MicroJourneyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_DBBG
   displayName: ""
   pass:
   - criteria:
@@ -6864,6 +7001,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_gcp_VerificationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_EasyTravelWebserver:8091
   displayName: ""
   pass:
   - criteria:
@@ -7743,16 +7890,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_rest.*:80
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -7893,7 +8030,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -7903,7 +8040,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -8393,7 +8530,27 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_IBM_MQ_Queue_Listener
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_RecommendationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -8493,6 +8650,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_LoadDriverService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -8514,6 +8681,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -8894,6 +9071,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_EasyTravelWebserver:8999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_easyTravel_Business_Backend
   displayName: ""
   pass:
   - criteria:
@@ -9833,6 +10020,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CICS_on_ET02
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_EasyTravelBackendWebserver:8091
   displayName: ""
   pass:
@@ -9904,6 +10101,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MicroJourneyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_DBBG
   displayName: ""
   pass:
   - criteria:
@@ -10174,6 +10381,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_gcp_VerificationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_EasyTravelWebserver:8091
   displayName: ""
   pass:
   - criteria:
