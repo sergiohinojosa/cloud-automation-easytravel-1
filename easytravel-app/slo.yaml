@@ -226,17 +226,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_CloudAutomation_easyTravelAdmin_(_easyTravelMonitor)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -897,6 +886,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -920,17 +920,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -1051,7 +1040,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__Citrix_CredentialWalletService
+- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -1062,7 +1051,7 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p95__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -1217,17 +1206,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -1766,17 +1744,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_LoadDriverService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -2020,17 +1987,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3328,17 +3284,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_ValidateCard_on_EasyTravelCardValidator
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3559,17 +3504,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -3604,17 +3538,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_MF_EasytravelService
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95__services_JourneyService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3999,16 +3922,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_CloudAutomation_easyTravelAdmin_(_easyTravelMonitor)
   displayName: ""
   pass:
   - criteria:
@@ -4618,6 +4531,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -4639,16 +4562,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -4758,7 +4671,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__Citrix_CredentialWalletService
+- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -4768,7 +4681,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p50__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -4909,16 +4822,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -5408,16 +5311,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_LoadDriverService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -5639,16 +5532,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -6828,16 +6711,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_ValidateCard_on_EasyTravelCardValidator
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -7038,16 +6911,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -7079,16 +6942,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_MF_EasytravelService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50__services_JourneyService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -7459,16 +7312,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_JourneyService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_CloudAutomation_easyTravelAdmin_(_easyTravelMonitor)
   displayName: ""
   pass:
   - criteria:
@@ -8078,6 +7921,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -8099,16 +7952,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -8218,7 +8061,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -8228,7 +8071,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -8369,16 +8212,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -8868,16 +8701,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_LoadDriverService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -9099,16 +8922,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_VerificationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -10288,16 +10101,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -10498,16 +10301,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__services_AuthenticationService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -10539,16 +10332,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_EasytravelService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_JourneyService__on_port_8091
   displayName: ""
   pass:
   - criteria:
