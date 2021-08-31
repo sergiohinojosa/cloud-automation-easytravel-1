@@ -745,6 +745,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -1656,6 +1666,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -3016,6 +3036,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
