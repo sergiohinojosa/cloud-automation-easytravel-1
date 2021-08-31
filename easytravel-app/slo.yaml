@@ -315,6 +315,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ocp_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-fullstack-nginx-musl-*
   displayName: ""
   pass:
@@ -535,6 +545,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CF_fullstack_AuthenticationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_azure_weather-service-restify
   displayName: ""
   pass:
@@ -725,6 +745,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -875,7 +905,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
+- sli: svc_rt_p90_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
   displayName: ""
   pass:
   - criteria:
@@ -885,7 +915,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_crio-at-ocp-four-six-fullstack-java-eleven-glibc-*
+- sli: svc_rt_p90_ocp_AuthenticationService
   displayName: ""
   pass:
   - criteria:
@@ -975,7 +1005,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -985,7 +1015,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -1026,6 +1056,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_gcp_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_PetResource
   displayName: ""
   pass:
   - criteria:
@@ -1135,7 +1175,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_blobstore.service.cf.internal:4443
+- sli: svc_rt_p90_easyTravelOpenShift-Business
   displayName: ""
   pass:
   - criteria:
@@ -1156,16 +1196,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_hipstershop.AdService_adservice-primary-*_staging
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_blobstore_url_signer_via_domain_socket__var_vcap_data_blobstore_signer.sock
   displayName: ""
   pass:
   - criteria:
@@ -1235,6 +1265,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ocp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.ProductCatalogService
   displayName: ""
   pass:
@@ -1266,16 +1306,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_dotNetCommon.RemoteTime
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -1515,6 +1545,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_bridge-server
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1735,6 +1775,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_azure_AzureQueueService$1
   displayName: ""
   pass:
@@ -1875,6 +1925,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
@@ -1906,6 +1966,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CF_fullstack_Requests_executed_in_background_threads_of_tomcat_easytravel-frontend-demo*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ocp_ConfigurationService
   displayName: ""
   pass:
   - criteria:
@@ -2076,6 +2146,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_easyTravelBusiness
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ocp_easyTravel_Customer_Frontend
   displayName: ""
   pass:
   - criteria:
@@ -2305,16 +2385,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Requests_on_localhost:8021
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_CF_fullstack_easyTravel_Customer_Frontend
   displayName: ""
   pass:
@@ -2346,6 +2416,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_fabric:_SFDictionaryApplication_SFDictionaryService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CF_fullstack_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -2655,7 +2735,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_easyTravel-Business
+- sli: svc_rt_p90_easyTravelCloudFoundry-Business
   displayName: ""
   pass:
   - criteria:
@@ -2885,16 +2965,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_default_web_request
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.ProductCatalogService_staging
   displayName: ""
   pass:
@@ -3006,6 +3076,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -3175,16 +3255,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CF_fullstack_Requests_executed_in_background_threads_of_tomcat_easytravel-backend-demo*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_CartService_staging
   displayName: ""
   pass:
@@ -3285,6 +3355,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CF_fullstack_VerificationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_vets-service-1
   displayName: ""
   pass:
@@ -3295,7 +3375,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_default_web_request
+- sli: svc_rt_p90_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -3305,7 +3385,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_hipstershop.AdService
+- sli: svc_rt_p90_ocp_JourneyService
   displayName: ""
   pass:
   - criteria:
@@ -3376,6 +3456,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CartService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ocp_VerificationService
   displayName: ""
   pass:
   - criteria:
