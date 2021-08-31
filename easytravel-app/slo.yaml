@@ -754,6 +754,17 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -2053,6 +2064,17 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -4444,6 +4466,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -5625,6 +5657,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -7864,6 +7906,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -9045,6 +9097,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
   displayName: ""
   pass:
   - criteria:
@@ -10646,7 +10708,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_JBoss
+- sli: mem_per_api_Java_MongoDB
   displayName: ""
   pass:
   - criteria:
@@ -10654,7 +10716,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_Java_MongoDB
+- sli: mem_per_api_JBoss
   displayName: ""
   pass:
   - criteria:
