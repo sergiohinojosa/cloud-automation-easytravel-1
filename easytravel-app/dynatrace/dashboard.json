@@ -1128,7 +1128,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1204,7 +1210,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1248,7 +1260,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1299,7 +1317,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1343,7 +1367,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1488,7 +1518,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1532,7 +1568,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1576,7 +1618,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1691,7 +1739,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "PROCESS_GROUP_INSTANCE": {
+            "PROCESS_GROUP_TAG_OF_PROCESS": [
+              "CloudAutomation EasyTravel"
+            ]
+          }
+        }
       }
     },
     {
@@ -1735,7 +1789,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "PROCESS_GROUP_INSTANCE": {
+            "PROCESS_GROUP_TAG_OF_PROCESS": [
+              "CloudAutomation EasyTravel"
+            ]
+          }
+        }
       }
     },
     {
