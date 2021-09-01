@@ -265,6 +265,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_lighthouse-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_eT-vmware-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -386,6 +396,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_:8080_prod
   displayName: ""
   pass:
   - criteria:
@@ -595,6 +615,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_jmeter-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.ShippingService_prod
   displayName: ""
   pass:
@@ -675,6 +705,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_dynatrace-sli-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90__:8080
   displayName: ""
   pass:
@@ -736,6 +776,26 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_default_web_request
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_BookingService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -886,6 +946,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_locket
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_approval-service-*
   displayName: ""
   pass:
   - criteria:
@@ -1156,6 +1226,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -1625,6 +1705,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_remediation-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_CartService
   displayName: ""
   pass:
@@ -1656,6 +1746,26 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_helm-service-*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_unleash-service-*
   displayName: ""
   pass:
   - criteria:
@@ -1906,6 +2016,26 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Store)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_:8080
   displayName: ""
   pass:
   - criteria:
@@ -2205,6 +2335,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_:8080_staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_CloudAutomation_AuthenticationService
   displayName: ""
   pass:
@@ -2216,6 +2356,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_AuthenticationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Requests_on_localhost:8081
   displayName: ""
   pass:
   - criteria:
@@ -2545,6 +2695,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_fabric:_SFDictionaryApplication_SFDictionaryService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_db
   displayName: ""
   pass:
@@ -2735,6 +2895,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Authentication)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -2766,6 +2936,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_wp_easytravel
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_ApacheJMeter.jar_jmeter-service-*
   displayName: ""
   pass:
   - criteria:
@@ -2965,7 +3145,27 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_:8080
   displayName: ""
   pass:
   - criteria:
@@ -3056,6 +3256,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -3256,6 +3466,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_AuthenticationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
