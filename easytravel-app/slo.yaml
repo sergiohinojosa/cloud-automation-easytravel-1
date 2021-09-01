@@ -745,6 +745,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__services_BookingService__on_port_8091
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_crio-at-ocp-four-six-code-modules-java-glibc-*
   displayName: ""
   pass:
@@ -846,6 +856,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_weather-express
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_rest.*:80
   displayName: ""
   pass:
   - criteria:
@@ -995,7 +1015,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -1005,7 +1025,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -1516,6 +1536,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_RecommendationService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_bridge-server
   displayName: ""
   pass:
   - criteria:
@@ -3046,6 +3076,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
