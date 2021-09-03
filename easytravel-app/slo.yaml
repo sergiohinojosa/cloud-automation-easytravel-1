@@ -855,6 +855,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CloudAutomation_rest.*:80
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -876,6 +886,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_locket
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -956,16 +976,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_ConfigurationService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_MicroJourneyService_on_port_*
   displayName: ""
   pass:
   - criteria:
@@ -1535,6 +1545,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_bridge-server
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_grpc.health.v1.Health
   displayName: ""
   pass:
@@ -1656,6 +1676,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CloudAutomation_CreditCardValidation
   displayName: ""
   pass:
   - criteria:
@@ -2495,6 +2525,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_LoadDriverService.exe
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_eT-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -3286,6 +3326,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_EasytravelService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_JourneyService__on_port_8091
   displayName: ""
   pass:
   - criteria:
