@@ -55,16 +55,6 @@ objectives:
     - '>5'
   weight: 1
   key_sli: false
-- sli: non_db_calls
-  displayName: ""
-  pass:
-  - criteria:
-    - <+10%
-  warning:
-  - criteria:
-    - '>+10%'
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_MF_VerificationService
   displayName: ""
   pass:
@@ -115,7 +105,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_JourneyService
+- sli: svc_rt_p90_JourneyService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -275,7 +265,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_EasyTravelWebserver:9079
+- sli: svc_rt_p90_EasyTravelWebserver:9079_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -365,7 +355,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_localhost:80
+- sli: svc_rt_p90_localhost:80_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -575,6 +565,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Credit_Card_Verification_CloudAutomation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_hipstershop.ShippingService_prod
   displayName: ""
   pass:
@@ -755,7 +755,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_CustomerFrontendREST
+- sli: svc_rt_p90_CustomerFrontendREST_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -805,6 +805,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_ValidateCard_Run
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_SpringBoot_api-gateway-*
   displayName: ""
   pass:
@@ -836,6 +846,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_weather-express
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_rest.*:80_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -945,7 +965,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_BankService
+- sli: svc_rt_p90_BankService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1035,7 +1055,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_easyTravel_Customer_Frontend
+- sli: svc_rt_p90_easyTravel_Customer_Frontend_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1145,7 +1165,17 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280_CloudAutomation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_default_web_request
   displayName: ""
   pass:
   - criteria:
@@ -1415,6 +1445,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_VerificationService_CloudAutomation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_MF_ConfigurationService
   displayName: ""
   pass:
@@ -1455,7 +1495,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_CheckDestination
+- sli: svc_rt_p90_CheckDestination_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1615,6 +1655,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_LoadDriverService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_pl1l-oscomp13.internal:8778
   displayName: ""
   pass:
@@ -1636,6 +1686,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_BookingService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CreditCardValidation_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1705,7 +1765,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1755,7 +1815,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_easyTravelBusiness
+- sli: svc_rt_p90_easyTravelBusiness_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -1975,7 +2035,17 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_CloudAutomation
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_IIS_app_pool_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -2165,7 +2235,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_classic.*:80
+- sli: svc_rt_p90_classic.*:80_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -2175,7 +2245,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_AuthenticationService
+- sli: svc_rt_p90_AuthenticationService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -2375,7 +2445,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_cdn.*:80
+- sli: svc_rt_p90_cdn.*:80_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -2455,6 +2525,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_LoadDriverService.exe
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_eT-demo-1-CustomerFrontend
   displayName: ""
   pass:
@@ -2515,7 +2595,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_ConfigurationService
+- sli: svc_rt_p90_ConfigurationService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -2685,6 +2765,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_Authentication)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -2695,7 +2785,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_BookingService
+- sli: svc_rt_p90_BookingService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -2905,6 +2995,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*_on_port_9280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_:10999
   displayName: ""
   pass:
@@ -2916,6 +3016,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CustomerFrontendREST
   displayName: ""
   pass:
   - criteria:
@@ -2996,6 +3106,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_easyTravel_Customer_Frontend
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_ValidateCard_on_EasyTravelCardValidator
   displayName: ""
   pass:
   - criteria:
@@ -3185,7 +3305,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_EasytravelService
+- sli: svc_rt_p90_EasytravelService_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -3196,6 +3316,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_azure_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_AuthenticationService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3236,6 +3366,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_MF_EasytravelService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90__services_JourneyService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -3295,7 +3435,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*
+- sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -3315,7 +3455,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_EasyTravelWebserver:8079
+- sli: svc_rt_p90_EasyTravelWebserver:8079_CloudAutomation
   displayName: ""
   pass:
   - criteria:
@@ -3335,7 +3475,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_CloudAutomation_easyTravel_Third_Party_Content_Server
+- sli: svc_rt_p90_easyTravel_Third_Party_Content_Server_CloudAutomation
   displayName: ""
   pass:
   - criteria:
