@@ -515,6 +515,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_EmailService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_AuthenticationService
   displayName: ""
   pass:
@@ -716,16 +726,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easytravel-*-x*
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90__services_BookingService__on_port_8091
   displayName: ""
   pass:
   - criteria:
@@ -995,7 +995,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__Citrix_CredentialWalletService
+- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
   - criteria:
@@ -1005,7 +1005,7 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
+- sli: svc_rt_p90__Citrix_CredentialWalletService
   displayName: ""
   pass:
   - criteria:
@@ -1725,6 +1725,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_CloudAutomation_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_nginx-*
   displayName: ""
   pass:
@@ -1786,6 +1796,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_[embedded]
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CartService
   displayName: ""
   pass:
   - criteria:
@@ -2496,6 +2516,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_CF_fullstack_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_fabric:_SFDictionaryApplication_SFDictionaryService
   displayName: ""
   pass:
   - criteria:
@@ -3265,16 +3295,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90__services_JourneyService__on_port_8091
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_hipstershop.PaymentService
   displayName: ""
   pass:
@@ -3296,6 +3316,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_vets-service-1
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_hipstershop.AdService
   displayName: ""
   pass:
   - criteria:
@@ -3477,7 +3507,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_Java_MongoDB
+- sli: mem_per_api_JBoss
   displayName: ""
   pass:
   - criteria:
@@ -3485,7 +3515,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: mem_per_api_JBoss
+- sli: mem_per_api_Java_MongoDB
   displayName: ""
   pass:
   - criteria:
