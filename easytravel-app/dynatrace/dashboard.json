@@ -1202,7 +1202,14 @@
               "percentile": null,
               "type": "LINE",
               "entityType": "SERVICE",
-              "dimensions": [],
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
               "sortAscending": false,
               "sortColumn": true,
               "aggregationRate": "TOTAL"
@@ -1359,7 +1366,14 @@
               "percentile": null,
               "type": "LINE",
               "entityType": "SERVICE",
-              "dimensions": [],
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
               "sortAscending": false,
               "sortColumn": true,
               "aggregationRate": "TOTAL"
@@ -1409,7 +1423,14 @@
               "percentile": null,
               "type": "LINE",
               "entityType": "SERVICE",
-              "dimensions": [],
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
               "sortAscending": false,
               "sortColumn": true,
               "aggregationRate": "TOTAL"
@@ -1419,8 +1440,8 @@
         },
         "filtersPerEntityType": {
           "SERVICE": {
-            "AUTO_TAGS": [
-              "easytravel-app"
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
             ]
           }
         }
@@ -1474,7 +1495,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -1510,7 +1537,14 @@
               "percentile": null,
               "type": "LINE",
               "entityType": "SERVICE",
-              "dimensions": [],
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
               "sortAscending": false,
               "sortColumn": true,
               "aggregationRate": "TOTAL"
@@ -1706,13 +1740,17 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": ""
+        "timeframe": "",
+        "managementZone": {
+          "id": "-5404482838544385932",
+          "name": "EasyTravel (CloudAutomation)"
+        }
       },
       "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Process memory allocation bytes API;sli=mem_per_api;pass=\u003c20%",
+        "customName": "Process memory allocation bytes API;sliX=mem_per_api;pass=\u003c20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1769,7 +1807,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Overall JVM CPU Time;sli=jvm_cpu;pass=\u003c+20%",
+        "customName": "Overall JVM CPU Time;sliX=jvm_cpu;pass=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
