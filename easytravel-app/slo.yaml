@@ -10,7 +10,6 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <+10%
     - <1500
   warning:
   - criteria:
@@ -21,7 +20,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>3000'
+    - '>5000'
   warning: []
   weight: 1
   key_sli: false
@@ -49,20 +48,20 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <5
+    - <+5%
   warning:
   - criteria:
-    - '>5'
+    - '>+5%'
   weight: 1
   key_sli: false
 - sli: non_db_calls
   displayName: ""
   pass:
   - criteria:
-    - <+10%
+    - <+5%
   warning:
   - criteria:
-    - '>+10%'
+    - '>+5%'
   weight: 1
   key_sli: false
 - sli: svc_rt_p90
