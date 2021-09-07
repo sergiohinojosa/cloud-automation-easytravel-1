@@ -6,14 +6,14 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: deployment
+        - name: delivery
           tasks:
             - name: deployment
               properties:
                 deploymentstrategy: direct
         - name: "testing"
           triggeredOn:
-            - event: "quality-gate.deployment.finished"
+            - event: "quality-gate.delivery.finished"
           tasks:
             - name: "test"
               properties:
