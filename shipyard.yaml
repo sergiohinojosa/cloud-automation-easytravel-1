@@ -6,7 +6,7 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: delivery
+        - name: testing
           tasks:
             - name: "test"
               properties:
