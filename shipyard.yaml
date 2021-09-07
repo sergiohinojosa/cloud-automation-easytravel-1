@@ -13,6 +13,6 @@ spec:
                 deploymentstrategy: direct
             - name: "test"
               properties:
-              teststrategy: "performance_5"
+                teststrategy: "performance_5"
             - name: "evaluation"
 
