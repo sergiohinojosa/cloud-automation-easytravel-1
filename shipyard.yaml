@@ -17,7 +17,7 @@ spec:
           tasks:
             - name: "test"
               properties:
-              teststrategy: "performance_5"
+                teststrategy: "performance_5"
         - name: "eval"
           triggeredOn:
             - event: "quality-gate.testing.finished"
