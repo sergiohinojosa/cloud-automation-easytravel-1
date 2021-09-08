@@ -32,7 +32,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "[Keptn Bridge](http://demo1.keptn.live.demo.dynatrace.com/bridge/project/easytravel/evalservice) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/easytravel-demo1)\n- [✈️ Easytravel Classic](http://35.209.159.202:8080/)\n- [⏱Tests schedule](https://github.com/keptn-demo-live/easytravel-demo1/blob/master/README.md)",
+      "Markdown": "[Cloud Automation](https://jmd02621.cloudautomation.live.dynatrace.com/bridge) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel-1)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md)",
       "bounds": {
         "top": 0,
         "left": 38,
@@ -66,1031 +66,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 760,
-        "left": 1900,
-        "width": 228,
-        "height": 266
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Throughput of services ",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "COUNT",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 760,
-        "left": 2356,
-        "width": 228,
-        "height": 266
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "❗️Most failing services",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.errors.total.rate",
-              "aggregation": "AVG",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 760,
-        "left": 1672,
-        "width": 228,
-        "height": 266
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Service outlier transactions (max)",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "MAX",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "[🐢 TX \u003e 10 Sec](#topglobalwebrequests;servicefilter=0%1E0%1110000000%144611686018427387) - [🐌 \u003e30 Sec](#topglobalwebrequests;servicefilter=0%1E0%1130000000%144611686018427387) - [Top SQL Statements](#topdbstatements;gtf=l_2_HOURS;gf=all) ",
-      "bounds": {
-        "top": 722,
-        "left": 1672,
-        "width": 456,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 494,
-        "left": 1672,
-        "width": 456,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Request count vs 95th percentile",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "PERCENTILE",
-              "percentile": 95,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "COUNT",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 494,
-        "left": 2128,
-        "width": 456,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "HTTP [4|5xx] and failed transactions",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:service.errors.fourxx.count",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.errors.fivexx.count",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.errors.total.count",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 760,
-        "left": 2128,
-        "width": 228,
-        "height": 266
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Database calls per Service",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.dbChildCallCount",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "[❗Failed requests](#topglobalwebrequests;servicefilter=0%1E3%110) \n - [❗HTTP 4XX](#topglobalwebrequests;servicefilter=0%1E2%11400-499) - [❗HTTP 5XX](#topglobalwebrequests;servicefilter=0%1E2%11500-599) - [⚡️failed exceptions](#exceptionsoverview;servicefilter=0%1E3%110)",
-      "bounds": {
-        "top": 722,
-        "left": 2128,
-        "width": 456,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "###Easytravel -  Performance Engineering Overview ",
-      "bounds": {
-        "top": 456,
-        "left": 1672,
-        "width": 456,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "###[🔬 Developer Diagnostic Tools](/ui/diagnostictools/analytics)",
-      "bounds": {
-        "top": 456,
-        "left": 2280,
-        "width": 266,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 114,
-        "left": 1102,
-        "width": 266,
-        "height": 342
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Max Response Time per Teststep;sli=teststep_rt_max;pass=\u003c4000",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "calc:service.responsetimetestbookingsteps",
-              "aggregation": "MAX",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Dimension",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 114,
-        "left": 836,
-        "width": 266,
-        "height": 342
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Avg Response Time per Teststep;sli=teststep_rt_avg;pass=\u003c1000",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "calc:service.responsetimetestbookingsteps",
-              "aggregation": "AVG",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Dimension",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 38,
-        "left": 1672,
-        "width": 912,
-        "height": 380
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Load Testing Overview: Response Time by Test Name",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "calc:service.responsetimetestbookingsteps",
-              "aggregation": "AVG",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Dimension",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 114,
-        "left": 1368,
-        "width": 266,
-        "height": 342
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Exceptions per Teststep;sli=teststep_exceptions;pass=\u003c10",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "calc:service.exceptioncountbytestbooking",
-              "aggregation": "AVG",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Dimension",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Easytravel - Load Test Response Time Overview",
-      "bounds": {
-        "top": 0,
-        "left": 1672,
-        "width": 912,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Test Transaction Metrics (SLIs/SLOs): Response Time per Test ...",
-      "bounds": {
-        "top": 76,
-        "left": 836,
-        "width": 798,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 1064,
-        "left": 1976,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Process memory allocation bytes API",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.memory.memAllocationBytes",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 1064,
-        "left": 2280,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Process memory allocation/survived objects count API",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.memory.memAllocationCount",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "AREA",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:tech.jvm.memory.memSurvivorsCount",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 1064,
-        "left": 1672,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "JVM total CPU time by ThreadGroup",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.threads.totalCpuTime",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "AREA",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Thread group",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "###🧵[ThreadGroup analysis](/ui/diagnostictools/codelevel/PROCESS_GROUP_INSTANCE-A6783A7F6E733000/threadanalysis) ",
-      "bounds": {
-        "top": 1026,
-        "left": 1672,
-        "width": 266,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "###💾[Memory Allocation analysis](/ui/services/PROCESS_GROUP-CB01E8106F5F846B/memoryallocation)",
-      "bounds": {
-        "top": 1026,
-        "left": 1938,
-        "width": 266,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "###💻[CPU analysis](/ui/diagnostictools/profiling/cpu)",
-      "bounds": {
-        "top": 1026,
-        "left": 2318,
-        "width": 190,
-        "height": 38
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 114,
-        "left": 0,
+        "top": 152,
+        "left": 38,
         "width": 266,
         "height": 228
       },
@@ -1147,7 +124,7 @@
       "Markdown": "KQG.Total.Pass=100%;KQG.Total.Warning=96%;KQG.Compare.WithScore=pass_or_warn;KQG.Compare.Results=3;KQG.Compare.Function=avg\n",
       "bounds": {
         "top": 38,
-        "left": 228,
+        "left": 38,
         "width": 874,
         "height": 38
       },
@@ -1178,8 +155,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 342,
-        "left": 532,
+        "top": 380,
+        "left": 570,
         "width": 266,
         "height": 228
       },
@@ -1235,8 +212,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 532,
+        "top": 152,
+        "left": 570,
         "width": 266,
         "height": 228
       },
@@ -1285,8 +262,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 570,
-        "left": 0,
+        "top": 608,
+        "left": 38,
         "width": 266,
         "height": 228
       },
@@ -1342,8 +319,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 570,
-        "left": 532,
+        "top": 152,
+        "left": 836,
         "width": 266,
         "height": 228
       },
@@ -1354,7 +331,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "DB calls;sli=db_calls;pass=\u003c+5%;warning=\u003e+5%",
+        "customName": "DB calls;sli=db_calls;pass=\u003c=+5%;warning=\u003e+5%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1399,8 +376,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 798,
-        "left": 532,
+        "top": 380,
+        "left": 836,
         "width": 266,
         "height": 228
       },
@@ -1411,7 +388,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Non DB calls;sli=non_db_calls;pass=\u003c+5%;warning=\u003e+5%",
+        "customName": "Non DB calls;sli=non_db_calls;pass=\u003c=+5%;warning=\u003e+5%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1456,8 +433,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 342,
-        "left": 0,
+        "top": 380,
+        "left": 38,
         "width": 266,
         "height": 228
       },
@@ -1513,8 +490,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 570,
-        "left": 266,
+        "top": 608,
+        "left": 304,
         "width": 266,
         "height": 228
       },
@@ -1525,7 +502,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Lock time;sli=lock_time;pass=\u003c+5%;warning=\u003e+5%",
+        "customName": "Lock time;sli=lock_time;pass=\u003c=+5%;warning=\u003e+5%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1570,8 +547,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 266,
+        "top": 152,
+        "left": 304,
         "width": 266,
         "height": 228
       },
@@ -1627,8 +604,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 342,
-        "left": 266,
+        "top": 380,
+        "left": 304,
         "width": 266,
         "height": 228
       },
@@ -1675,12 +652,12 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "### Global SLO Settings:\n",
+      "Markdown": "### Global SLO Settings:",
       "bounds": {
-        "top": 38,
-        "left": 0,
-        "width": 228,
-        "height": 38
+        "top": 76,
+        "left": 38,
+        "width": 266,
+        "height": 76
       },
       "tileFilter": {
         "timeframe": ""
@@ -1709,8 +686,8 @@
       "CustomName": "",
       "Markdown": "### Service Related Metrics (SLI/SLO): Response Time, Throughput, DB Calls ...",
       "bounds": {
-        "top": 76,
-        "left": 0,
+        "top": 114,
+        "left": 304,
         "width": 798,
         "height": 38
       },
@@ -1733,128 +710,17 @@
       }
     },
     {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
+      "name": "Header",
+      "tileType": "HEADER",
       "configured": true,
       "query": "",
       "type": "",
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 494,
-        "left": 1254,
-        "width": 380,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": "",
-        "managementZone": {
-          "id": "-5404482838544385932",
-          "name": "EasyTravel (CloudAutomation)"
-        }
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Process memory allocation bytes API;sliX=mem_per_api;pass=\u003c20%",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.memory.memAllocationBytes",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "BAR",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {
-          "PROCESS_GROUP_INSTANCE": {
-            "PROCESS_GROUP_TAG_OF_PROCESS": [
-              "CloudAutomation EasyTravel"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 494,
-        "left": 836,
-        "width": 418,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Overall JVM CPU Time;sliX=jvm_cpu;pass=\u003c+20%",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.threads.totalCpuTime",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "AREA",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {
-          "PROCESS_GROUP_INSTANCE": {
-            "PROCESS_GROUP_TAG_OF_PROCESS": [
-              "CloudAutomation EasyTravel"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Process Health Metrics (SLIs/SLOs): Memory, CPU",
-      "bounds": {
-        "top": 456,
-        "left": 836,
-        "width": 798,
+        "top": 0,
+        "left": 684,
+        "width": 304,
         "height": 38
       },
       "tileFilter": {
