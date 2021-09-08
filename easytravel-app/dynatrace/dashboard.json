@@ -238,13 +238,7 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {
-          "SERVICE": {
-            "SPECIFIC_ENTITIES": [
-              "SERVICE-83EAFA44D6C83E3E"
-            ]
-          }
-        }
+        "filtersPerEntityType": {}
       }
     },
     {
@@ -352,13 +346,7 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {
-          "SERVICE": {
-            "SPECIFIC_ENTITIES": [
-              "SERVICE-83EAFA44D6C83E3E"
-            ]
-          }
-        }
+        "filtersPerEntityType": {}
       }
     },
     {
