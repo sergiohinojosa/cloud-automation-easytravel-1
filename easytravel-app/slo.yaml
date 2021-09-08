@@ -88,8 +88,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - "0"
-    - <+5%
+    - <=+5%
   warning:
   - criteria:
     - '>+5%'
