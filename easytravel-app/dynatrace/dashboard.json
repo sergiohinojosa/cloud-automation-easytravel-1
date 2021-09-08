@@ -66,7 +66,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 152,
+        "top": 114,
         "left": 38,
         "width": 266,
         "height": 228
@@ -155,7 +155,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
+        "top": 342,
         "left": 570,
         "width": 266,
         "height": 228
@@ -212,7 +212,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 152,
+        "top": 114,
         "left": 570,
         "width": 266,
         "height": 228
@@ -262,7 +262,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 608,
+        "top": 570,
         "left": 38,
         "width": 266,
         "height": 228
@@ -319,7 +319,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 152,
+        "top": 114,
         "left": 836,
         "width": 266,
         "height": 228
@@ -376,7 +376,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
+        "top": 342,
         "left": 836,
         "width": 266,
         "height": 228
@@ -433,7 +433,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
+        "top": 342,
         "left": 38,
         "width": 266,
         "height": 228
@@ -490,7 +490,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 608,
+        "top": 570,
         "left": 304,
         "width": 266,
         "height": 228
@@ -547,7 +547,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 152,
+        "top": 114,
         "left": 304,
         "width": 266,
         "height": 228
@@ -559,7 +559,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "CPU time;sli=cpu_time;pass=0,\u003c+5%;warning=\u003e+5%",
+        "customName": "CPU time;sli=cpu_time;pass=\u003c=+5%;warning=\u003e+5%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -604,7 +604,7 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
+        "top": 342,
         "left": 304,
         "width": 266,
         "height": 228
@@ -652,41 +652,9 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "### Global SLO Settings:",
-      "bounds": {
-        "top": 76,
-        "left": 38,
-        "width": 266,
-        "height": 76
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
       "Markdown": "### Service Related Metrics (SLI/SLO): Response Time, Throughput, DB Calls ...",
       "bounds": {
-        "top": 114,
+        "top": 76,
         "left": 304,
         "width": 798,
         "height": 38
@@ -710,7 +678,7 @@
       }
     },
     {
-      "name": "Header",
+      "name": "Global SLO Settings:",
       "tileType": "HEADER",
       "configured": true,
       "query": "",
@@ -718,9 +686,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 0,
-        "left": 684,
-        "width": 304,
+        "top": 76,
+        "left": 38,
+        "width": 266,
         "height": 38
       },
       "tileFilter": {
