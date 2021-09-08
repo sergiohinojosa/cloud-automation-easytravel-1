@@ -1,2 +1,12 @@
 spec_version: 0.1.4
-indicators: {}
+indicators:
+  cpu_time: MV2;MicroSecond;metricSelector=builtin:service.cpu.time:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  db_calls: MV2;Count;metricSelector=builtin:service.dbChildCallCount:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  error_count: MV2;Percent;metricSelector=builtin:service.errors.total.rate:merge(0):avg:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  io_time: MV2;MicroSecond;metricSelector=builtin:service.ioTime:merge(0):value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  lock_time: MV2;MicroSecond;metricSelector=builtin:service.lockTime:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  non_db_calls: MV2;Count;metricSelector=builtin:service.nonDbChildCallCount:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(50.000000):names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(90.000000):names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  svc_rt_p95: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(95.000000):names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  throughput_svc: MV2;Count;metricSelector=builtin:service.requestCount.total:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
