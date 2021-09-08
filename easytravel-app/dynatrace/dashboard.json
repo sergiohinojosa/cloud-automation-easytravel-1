@@ -105,7 +105,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -238,7 +244,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -289,7 +301,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -340,7 +358,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -448,7 +472,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -499,7 +529,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -600,7 +636,13 @@
           ],
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": {
+          "SERVICE": {
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
+            ]
+          }
+        }
       }
     },
     {
@@ -665,108 +707,6 @@
           "resultMetadata": {}
         },
         "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 152,
-        "left": 1178,
-        "width": 266,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Overall JVM CPU Time;sli=jvm_cpu;pass=\u003c+20%",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.threads.totalCpuTime",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.process_group_instance",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
-      "bounds": {
-        "top": 380,
-        "left": 1178,
-        "width": 266,
-        "height": 228
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Overall JVM CPU Time;sli=jvm_cpu;pass=\u003c+20%",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.threads.totalCpuTime",
-              "aggregation": "NONE",
-              "percentile": null,
-              "type": "LINE",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.process_group_instance",
-                  "values": [],
-                  "entitiyDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
       }
     }
   ]
