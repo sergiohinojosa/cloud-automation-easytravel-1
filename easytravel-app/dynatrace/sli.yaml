@@ -1,6 +1,6 @@
 spec_version: 0.1.4
 indicators:
-  cpu_time: MV2;MicroSecond;metricSelector=builtin:service.cpu.time:merge(0):value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  cpu_time: MV2;MicroSecond;metricSelector=builtin:service.cpu.time:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
   db_calls: MV2;Count;metricSelector=builtin:service.dbChildCallCount:value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
   error_count: MV2;Percent;metricSelector=builtin:service.errors.total.rate:merge(0):avg:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
   io_time: MV2;MicroSecond;metricSelector=builtin:service.ioTime:merge(0):value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
