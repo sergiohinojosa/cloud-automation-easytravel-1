@@ -684,6 +684,57 @@
         },
         "filtersPerEntityType": null
       }
+    },
+    {
+      "name": "Custom chart",
+      "tileType": "CUSTOM_CHARTING",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "",
+      "Markdown": "",
+      "bounds": {
+        "top": 152,
+        "left": 1178,
+        "width": 266,
+        "height": 228
+      },
+      "tileFilter": {
+        "timeframe": ""
+      },
+      "queries": null,
+      "assignedEntities": null,
+      "filterConfig": {
+        "type": "MIXED",
+        "customName": "DB calls;sli=db_calls;pass=\u003c=+5%;warning=\u003e+5%",
+        "defaultName": "Custom chart",
+        "chartConfig": {
+          "legendShown": true,
+          "type": "SINGLE_VALUE",
+          "series": [
+            {
+              "metric": "builtin:service.dbChildCallCount",
+              "aggregation": "NONE",
+              "percentile": null,
+              "type": "LINE",
+              "entityType": "SERVICE",
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
+              "sortAscending": false,
+              "sortColumn": true,
+              "aggregationRate": "TOTAL"
+            }
+          ],
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": {}
+      }
     }
   ]
 }
