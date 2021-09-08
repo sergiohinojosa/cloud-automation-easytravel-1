@@ -306,6 +306,16 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_azure_easytraveldemo-weather-express-app-demo
   displayName: ""
   pass:
@@ -397,6 +407,16 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_PHP_on_EasyTravelWebserver:8079
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -556,16 +576,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_eT-OpenStack-CustomerFrontend_on_port_8280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95__:8080
   displayName: ""
   pass:
@@ -716,6 +726,16 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_netscalerAuth)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_AuthenticationService
   displayName: ""
   pass:
@@ -757,16 +777,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -886,6 +896,16 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95__Citrix_CredentialWalletService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
@@ -897,6 +917,16 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_hipstershop.CurrencyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_netscalerWeb)
   displayName: ""
   pass:
   - criteria:
@@ -1276,6 +1306,16 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
+- sli: svc_rt_p95_PaymentBackend_DBCleanUp
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
 - sli: svc_rt_p95_easytravel
   displayName: ""
   pass:
@@ -1317,6 +1357,16 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_gcp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_Credit_Card_Verification
   displayName: ""
   pass:
   - criteria:
@@ -1556,16 +1606,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_nginx-*
   displayName: ""
   pass:
@@ -1577,16 +1617,6 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
-- sli: svc_rt_p95_azure_AzureQueueService$1
   displayName: ""
   pass:
   - criteria:
@@ -1667,6 +1697,16 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
   displayName: ""
   pass:
   - criteria:
@@ -2456,16 +2496,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_azure_Unknown_queue_vendor_Queue_Listener
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_RESTProcedureControl
   displayName: ""
   pass:
@@ -2636,16 +2666,6 @@ objectives:
     - <2000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_azure_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <2000
-  weight: 2
-  key_sli: false
 - sli: svc_rt_p95_RESTProcedureControl
   displayName: ""
   pass:
@@ -2727,6 +2747,16 @@ objectives:
   weight: 2
   key_sli: false
 - sli: svc_rt_p95_Oauth_2___Open_ID___Identity_Server
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p95_Default_Web_Site:443_(_Citrix_netscaler)
   displayName: ""
   pass:
   - criteria:
@@ -3474,6 +3504,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_azure_easytraveldemo-weather-express-app-demo
   displayName: ""
   pass:
@@ -3565,6 +3605,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_PHP_on_EasyTravelWebserver:8079
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -3724,16 +3774,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_eT-OpenStack-CustomerFrontend_on_port_8280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50__:8080
   displayName: ""
   pass:
@@ -3884,6 +3924,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_netscalerAuth)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_AuthenticationService
   displayName: ""
   pass:
@@ -3925,16 +3975,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -4054,6 +4094,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50__Citrix_CredentialWalletService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
@@ -4065,6 +4115,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_hipstershop.CurrencyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_netscalerWeb)
   displayName: ""
   pass:
   - criteria:
@@ -4444,6 +4504,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p50_PaymentBackend_DBCleanUp
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p50_easytravel
   displayName: ""
   pass:
@@ -4485,6 +4555,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_gcp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_Credit_Card_Verification
   displayName: ""
   pass:
   - criteria:
@@ -4724,16 +4804,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_nginx-*
   displayName: ""
   pass:
@@ -4745,16 +4815,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_azure_AzureQueueService$1
   displayName: ""
   pass:
   - criteria:
@@ -4835,6 +4895,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
   displayName: ""
   pass:
   - criteria:
@@ -5624,16 +5694,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_azure_Unknown_queue_vendor_Queue_Listener
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_RESTProcedureControl
   displayName: ""
   pass:
@@ -5804,16 +5864,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_azure_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_RESTProcedureControl
   displayName: ""
   pass:
@@ -5895,6 +5945,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p50_Oauth_2___Open_ID___Identity_Server
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50_Default_Web_Site:443_(_Citrix_netscaler)
   displayName: ""
   pass:
   - criteria:
@@ -6624,6 +6684,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: db_calls_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: db_calls_azure_easytraveldemo-weather-express-app-demo
   displayName: ""
   pass:
@@ -6715,6 +6785,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_PHP_on_EasyTravelWebserver:8079
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: db_calls_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -6874,16 +6954,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: db_calls_eT-OpenStack-CustomerFrontend_on_port_8280
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: db_calls__:8080
   displayName: ""
   pass:
@@ -7034,6 +7104,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: db_calls_Default_Web_Site:443_(_Citrix_netscalerAuth)
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: db_calls_AuthenticationService
   displayName: ""
   pass:
@@ -7075,16 +7155,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
-- sli: db_calls_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -7204,6 +7274,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: db_calls__Citrix_CredentialWalletService
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: db_calls_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
@@ -7215,6 +7295,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_hipstershop.CurrencyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: db_calls_Default_Web_Site:443_(_Citrix_netscalerWeb)
   displayName: ""
   pass:
   - criteria:
@@ -7594,6 +7684,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: db_calls_PaymentBackend_DBCleanUp
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: db_calls_easytravel
   displayName: ""
   pass:
@@ -7635,6 +7735,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_gcp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: db_calls_Credit_Card_Verification
   displayName: ""
   pass:
   - criteria:
@@ -7874,16 +7984,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: db_calls_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: db_calls_nginx-*
   displayName: ""
   pass:
@@ -7895,16 +7995,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
-- sli: db_calls_azure_AzureQueueService$1
   displayName: ""
   pass:
   - criteria:
@@ -7985,6 +8075,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: db_calls_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
   displayName: ""
   pass:
   - criteria:
@@ -8774,16 +8874,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: db_calls_azure_Unknown_queue_vendor_Queue_Listener
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: db_calls_RESTProcedureControl
   displayName: ""
   pass:
@@ -8954,16 +9044,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: db_calls_azure_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: db_calls_RESTProcedureControl
   displayName: ""
   pass:
@@ -9045,6 +9125,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: db_calls_Oauth_2___Open_ID___Identity_Server
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: db_calls_Default_Web_Site:443_(_Citrix_netscaler)
   displayName: ""
   pass:
   - criteria:
@@ -9784,6 +9874,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_azure_easytraveldemo-weather-express-app-demo
   displayName: ""
   pass:
@@ -9875,6 +9975,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_PHP_on_EasyTravelWebserver:8079
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -10034,16 +10144,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_eT-OpenStack-CustomerFrontend_on_port_8280
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90__:8080
   displayName: ""
   pass:
@@ -10194,6 +10294,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_netscalerAuth)
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_AuthenticationService
   displayName: ""
   pass:
@@ -10235,16 +10345,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -10364,6 +10464,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90__Citrix_CredentialWalletService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
@@ -10375,6 +10485,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_hipstershop.CurrencyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_netscalerWeb)
   displayName: ""
   pass:
   - criteria:
@@ -10754,6 +10874,16 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
+- sli: svc_rt_p90_PaymentBackend_DBCleanUp
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
 - sli: svc_rt_p90_easytravel
   displayName: ""
   pass:
@@ -10795,6 +10925,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_gcp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Credit_Card_Verification
   displayName: ""
   pass:
   - criteria:
@@ -11034,16 +11174,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_nginx-*
   displayName: ""
   pass:
@@ -11055,16 +11185,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_azure_AzureQueueService$1
   displayName: ""
   pass:
   - criteria:
@@ -11145,6 +11265,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
   displayName: ""
   pass:
   - criteria:
@@ -11934,16 +12064,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_azure_Unknown_queue_vendor_Queue_Listener
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -12114,16 +12234,6 @@ objectives:
     - <+50%
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_azure_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <1500
-  warning:
-  - criteria:
-    - <+50%
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p90_RESTProcedureControl
   displayName: ""
   pass:
@@ -12205,6 +12315,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: svc_rt_p90_Oauth_2___Open_ID___Identity_Server
+  displayName: ""
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90_Default_Web_Site:443_(_Citrix_netscaler)
   displayName: ""
   pass:
   - criteria:
@@ -12934,6 +13054,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: lock_time_azure_easytraveldemo-weather-service-app-demo
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: lock_time_azure_easytraveldemo-weather-express-app-demo
   displayName: ""
   pass:
@@ -13025,6 +13155,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_PHP_on_EasyTravelWebserver:8079
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: lock_time_BookingService
   displayName: ""
   pass:
   - criteria:
@@ -13184,16 +13324,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: lock_time_eT-OpenStack-CustomerFrontend_on_port_8280
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: lock_time__:8080
   displayName: ""
   pass:
@@ -13344,6 +13474,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: lock_time_Default_Web_Site:443_(_Citrix_netscalerAuth)
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: lock_time_AuthenticationService
   displayName: ""
   pass:
@@ -13385,16 +13525,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_locket
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
-- sli: lock_time_eT-demo-1-CustomerFrontend_on_port_8280
   displayName: ""
   pass:
   - criteria:
@@ -13514,6 +13644,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: lock_time__Citrix_CredentialWalletService
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: lock_time_Hipster_Shop_Frontend_-_Production
   displayName: ""
   pass:
@@ -13525,6 +13665,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_hipstershop.CurrencyService
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: lock_time_Default_Web_Site:443_(_Citrix_netscalerWeb)
   displayName: ""
   pass:
   - criteria:
@@ -13904,6 +14054,16 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
+- sli: lock_time_PaymentBackend_DBCleanUp
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
 - sli: lock_time_easytravel
   displayName: ""
   pass:
@@ -13945,6 +14105,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_gcp_CheckDestination
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: lock_time_Credit_Card_Verification
   displayName: ""
   pass:
   - criteria:
@@ -14184,16 +14354,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: lock_time_com.dynatrace.easytravel.customer.frontend.jar_easytravel-*-x*_on_port_8280_CloudAutomation
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: lock_time_nginx-*
   displayName: ""
   pass:
@@ -14205,16 +14365,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_ocp_Requests_executed_in_background_threads_of_openshift-easytravel-frontend
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
-- sli: lock_time_azure_AzureQueueService$1
   displayName: ""
   pass:
   - criteria:
@@ -14295,6 +14445,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_:10999
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: lock_time_CreditCardValidation_on_eT-OpenStack-BusinessBackend_(proto:__easyTravel_CreditCardService)
   displayName: ""
   pass:
   - criteria:
@@ -15084,16 +15244,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: lock_time_azure_Unknown_queue_vendor_Queue_Listener
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: lock_time_RESTProcedureControl
   displayName: ""
   pass:
@@ -15264,16 +15414,6 @@ objectives:
     - '>+5%'
   weight: 1
   key_sli: false
-- sli: lock_time_azure_BookingService
-  displayName: ""
-  pass:
-  - criteria:
-    - <=+5%
-  warning:
-  - criteria:
-    - '>+5%'
-  weight: 1
-  key_sli: false
 - sli: lock_time_RESTProcedureControl
   displayName: ""
   pass:
@@ -15355,6 +15495,16 @@ objectives:
   weight: 1
   key_sli: false
 - sli: lock_time_Oauth_2___Open_ID___Identity_Server
+  displayName: ""
+  pass:
+  - criteria:
+    - <=+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: lock_time_Default_Web_Site:443_(_Citrix_netscaler)
   displayName: ""
   pass:
   - criteria:
@@ -16388,14 +16538,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easyTravel_(x*)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+20%
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
   displayName: ""
   pass:
@@ -16421,6 +16563,14 @@ objectives:
   weight: 1
   key_sli: false
 - sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easyTravel_(x*)
+  displayName: ""
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: jvm_cpu_eT-demo-1-BusinessBackend_(eT-demo-1-BusinessBackend-1-WIN1)
   displayName: ""
   pass:
   - criteria:
@@ -17076,14 +17226,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easyTravel_(x*)
-  displayName: ""
-  pass:
-  - criteria:
-    - <+20%
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easytravel-*-x*
   displayName: ""
   pass:
@@ -17109,6 +17251,14 @@ objectives:
   weight: 1
   key_sli: false
 - sli: jvm_cpu_com.dynatrace.easytravel.cmdlauncher.jar_easyTravel_(x*)
+  displayName: ""
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: jvm_cpu_eT-demo-1-BusinessBackend_(eT-demo-1-BusinessBackend-1-WIN1)
   displayName: ""
   pass:
   - criteria:
