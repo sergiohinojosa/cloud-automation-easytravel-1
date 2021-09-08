@@ -1582,7 +1582,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "CPU time;sli=cpu_time;pass=\u003c+5%;warning=\u003e+5%",
+        "customName": "CPU time;sli=cpu_time;pass=0,\u003c+5%;warning=\u003e+5%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1594,7 +1594,14 @@
               "percentile": null,
               "type": "LINE",
               "entityType": "SERVICE",
-              "dimensions": [],
+              "dimensions": [
+                {
+                  "id": "0",
+                  "name": "dt.entity.service",
+                  "values": [],
+                  "entitiyDimension": false
+                }
+              ],
               "sortAscending": false,
               "sortColumn": true,
               "aggregationRate": "TOTAL"
