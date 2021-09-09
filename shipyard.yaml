@@ -6,11 +6,8 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: delivery
+        - name: testing
           tasks:
-            - name: "deployment"
-              properties:
-                deploymentstrategy: "direct"
             - name: "test"
               properties:
                 teststrategy: "performance_5"
