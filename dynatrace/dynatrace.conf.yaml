@@ -15,4 +15,4 @@ attachRules:
     - PROCESS_GROUP_INSTANCE
     tags:
     - context: CONTEXTLESS
-      key: "[Cloud Automation] EasyTravel"
+      key: test
