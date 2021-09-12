@@ -10,10 +10,10 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <1100
   warning:
   - criteria:
-    - <2000
+    - <1500
   weight: 2
   key_sli: false
 - sli: throughput_svc
@@ -38,7 +38,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <1100
   warning:
   - criteria:
     - <+50%
@@ -68,7 +68,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <1100
   warning:
   - criteria:
     - <+50%
