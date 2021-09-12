@@ -78,7 +78,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1500;warning=\u003c2000;weight=2",
+        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1100;warning=\u003c1500;weight=2",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -274,7 +274,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c1500;warning=\u003c+50%",
+        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c1100;warning=\u003c+50%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -445,7 +445,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c1500;warning=\u003c+50%",
+        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c1100;warning=\u003c+50%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
