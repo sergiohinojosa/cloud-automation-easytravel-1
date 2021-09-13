@@ -105,5 +105,5 @@ objectives:
   weight: 1
   key_sli: false
 total_score:
-  pass: 92%
-  warning: 85%
+  pass: 97%
+  warning: 95%
