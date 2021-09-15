@@ -11,8 +11,3 @@ attachRules:
       value: $SERVICE
     - context: CONTEXTLESS
       key: keptn_managed
-  - meTypes:
-    - PROCESS_GROUP_INSTANCE
-    tags:
-    - context: CONTEXTLESS
-      key: "[CloudAutomation] EasyTravel"
