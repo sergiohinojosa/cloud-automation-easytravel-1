@@ -11,7 +11,7 @@ indicators:
   lock_time:    "metricSelector=builtin:service.lockTime:merge(\"dt.entity.service\"):sum&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
   io_time:      "metricSelector=builtin:service.ioTime:merge(\"dt.entity.service\"):sum&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
   cpu_time:     "metricSelector=builtin:service.cpu.time:merge(\"dt.entity.service\"):sum&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
-  kpi_et_ex:     "metricSelector=calc:exceptionsbystepeasytravel:merge(0,1):sum&entitySelector=tag(\"CloudAutomation EasyTravel\"),type(SERVICE)"
+  kpi_et_ex:     "metricSelector=calc:service.exceptionsbystepeasytravel:merge(0,1):sum&entitySelector=tag(\"CloudAutomation EasyTravel\"),type(SERVICE)"
   kpi_rt_home:     "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Test Step\",1)):merge(\"dt.entity.service\"):avg&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
   kpi_rt_login:    "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Test Step\",3)):merge(\"dt.entity.service\"):avg&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
   kpi_rt_recommendations:     "metricSelector=calc:service.teststepresponsetime:filter(prefix(\"Test Step\",2)):merge(\"dt.entity.service\"):avg&entitySelector=tag(\"easytravel-app\"),type(SERVICE)"
